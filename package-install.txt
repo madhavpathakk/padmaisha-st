@@ -1,0 +1,2 @@
+# Run this in your project root to install all required packages
+npm install firebase react-firebase-hooks recharts react-table papaparse react-hot-toast lucide-react

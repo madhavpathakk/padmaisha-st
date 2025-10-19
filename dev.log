@@ -1,0 +1,685 @@
+ ⚠ Port 3000 is in use by process 63273, using available port 3003 instead.
+   ▲ Next.js 15.5.3
+   - Local:        http://localhost:3003
+   - Network:      http://10.22.32.132:3003
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 5.7s
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 810ms (114 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 8.7s (914 modules)
+ GET / 200 in 11176ms
+ ○ Compiling /products ...
+ ✓ Compiled /products in 3.9s (1096 modules)
+ GET /products 200 in 4211ms
+ ○ Compiling /products/[productId] ...
+ ✓ Compiled /products/[productId] in 675ms (1118 modules)
+ GET /products/urja-wacchi-1 200 in 2192ms
+ ○ Compiling /cart ...
+ ✓ Compiled /cart in 787ms (1125 modules)
+ GET /cart 200 in 1073ms
+ ✓ Compiled in 12.4s (1139 modules)
+ GET /products/urja-wacchi-2 200 in 3741ms
+ GET /products/urja-wacchi-2 200 in 73ms
+ ✓ Compiled in 1359ms (435 modules)
+ GET /products 200 in 138ms
+ GET /cart 200 in 444ms
+ ✓ Compiled in 8.1s (1139 modules)
+ GET /cart 200 in 629ms
+ ○ Compiling /checkout ...
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:493:1]
+ [2m490[0m |             );
+ [2m491[0m | 
+ [2m492[0m |   // Show order placed message and redirect to orders section after a delay
+ [2m493[0m |   useEffect(() => {
+     : [35;1m                ^[0m
+ [2m494[0m |     if (orderPlaced) {
+ [2m495[0m |       const timer = setTimeout(() => {
+ [2m496[0m |         router.push('/profile/orders');
+     `----
+  [31mx[0m Expected '</', got 'if'
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:494:1]
+ [2m491[0m | 
+ [2m492[0m |   // Show order placed message and redirect to orders section after a delay
+ [2m493[0m |   useEffect(() => {
+ [2m494[0m |     if (orderPlaced) {
+     : [35;1m    ^^[0m
+ [2m495[0m |       const timer = setTimeout(() => {
+ [2m496[0m |         router.push('/profile/orders');
+ [2m497[0m |       }, 4000);
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:493:1]
+ [2m490[0m |             );
+ [2m491[0m | 
+ [2m492[0m |   // Show order placed message and redirect to orders section after a delay
+ [2m493[0m |   useEffect(() => {
+     : [35;1m                ^[0m
+ [2m494[0m |     if (orderPlaced) {
+ [2m495[0m |       const timer = setTimeout(() => {
+ [2m496[0m |         router.push('/profile/orders');
+     `----
+  [31mx[0m Expected '</', got 'if'
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:494:1]
+ [2m491[0m | 
+ [2m492[0m |   // Show order placed message and redirect to orders section after a delay
+ [2m493[0m |   useEffect(() => {
+ [2m494[0m |     if (orderPlaced) {
+     : [35;1m    ^^[0m
+ [2m495[0m |       const timer = setTimeout(() => {
+ [2m496[0m |         router.push('/profile/orders');
+ [2m497[0m |       }, 4000);
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:493:1]
+ [2m490[0m |             );
+ [2m491[0m | 
+ [2m492[0m |   // Show order placed message and redirect to orders section after a delay
+ [2m493[0m |   useEffect(() => {
+     : [35;1m                ^[0m
+ [2m494[0m |     if (orderPlaced) {
+ [2m495[0m |       const timer = setTimeout(() => {
+ [2m496[0m |         router.push('/profile/orders');
+     `----
+  [31mx[0m Expected '</', got 'if'
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:494:1]
+ [2m491[0m | 
+ [2m492[0m |   // Show order placed message and redirect to orders section after a delay
+ [2m493[0m |   useEffect(() => {
+ [2m494[0m |     if (orderPlaced) {
+     : [35;1m    ^^[0m
+ [2m495[0m |       const timer = setTimeout(() => {
+ [2m496[0m |         router.push('/profile/orders');
+ [2m497[0m |       }, 4000);
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:493:1]
+ [2m490[0m |             );
+ [2m491[0m | 
+ [2m492[0m |   // Show order placed message and redirect to orders section after a delay
+ [2m493[0m |   useEffect(() => {
+     : [35;1m                ^[0m
+ [2m494[0m |     if (orderPlaced) {
+ [2m495[0m |       const timer = setTimeout(() => {
+ [2m496[0m |         router.push('/profile/orders');
+     `----
+  [31mx[0m Expected '</', got 'if'
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:494:1]
+ [2m491[0m | 
+ [2m492[0m |   // Show order placed message and redirect to orders section after a delay
+ [2m493[0m |   useEffect(() => {
+ [2m494[0m |     if (orderPlaced) {
+     : [35;1m    ^^[0m
+ [2m495[0m |       const timer = setTimeout(() => {
+ [2m496[0m |         router.push('/profile/orders');
+ [2m497[0m |       }, 4000);
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ GET /checkout 500 in 8785ms
+ GET /cart 500 in 2420ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /checkout in 5.6s (1493 modules)
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+    ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:73:1]
+ [2m70[0m |             >
+ [2m71[0m |               {loading ? 'Placing Order...' : 'Place Order'}
+ [2m72[0m |             </Button>
+ [2m73[0m |           </div>
+    : [35;1m           ^^^^^[0m
+ [2m74[0m |         </div>
+ [2m75[0m |       </div>
+ [2m76[0m |     </div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ○ Compiling /_not-found ...
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+    ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:73:1]
+ [2m70[0m |             >
+ [2m71[0m |               {loading ? 'Placing Order...' : 'Place Order'}
+ [2m72[0m |             </Button>
+ [2m73[0m |           </div>
+    : [35;1m           ^^^^^[0m
+ [2m74[0m |         </div>
+ [2m75[0m |       </div>
+ [2m76[0m |     </div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+    ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:73:1]
+ [2m70[0m |             >
+ [2m71[0m |               {loading ? 'Placing Order...' : 'Place Order'}
+ [2m72[0m |             </Button>
+ [2m73[0m |           </div>
+    : [35;1m           ^^^^^[0m
+ [2m74[0m |         </div>
+ [2m75[0m |       </div>
+ [2m76[0m |     </div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ GET /checkout 500 in 1315ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+    ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:73:1]
+ [2m70[0m |             >
+ [2m71[0m |               {loading ? 'Placing Order...' : 'Place Order'}
+ [2m72[0m |             </Button>
+ [2m73[0m |           </div>
+    : [35;1m           ^^^^^[0m
+ [2m74[0m |         </div>
+ [2m75[0m |       </div>
+ [2m76[0m |     </div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ GET /checkout 500 in 27ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+    ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:73:1]
+ [2m70[0m |             >
+ [2m71[0m |               {loading ? 'Placing Order...' : 'Place Order'}
+ [2m72[0m |             </Button>
+ [2m73[0m |           </div>
+    : [35;1m           ^^^^^[0m
+ [2m74[0m |         </div>
+ [2m75[0m |       </div>
+ [2m76[0m |     </div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ GET /checkout 500 in 200ms
+ GET /checkout 500 in 78ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+    ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:73:1]
+ [2m70[0m |             >
+ [2m71[0m |               {loading ? 'Placing Order...' : 'Place Order'}
+ [2m72[0m |             </Button>
+ [2m73[0m |           </div>
+    : [35;1m           ^^^^^[0m
+ [2m74[0m |         </div>
+ [2m75[0m |       </div>
+ [2m76[0m |     </div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ GET /checkout 500 in 42ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/madhavpathak/Desktop/padmaisha with firebase5566/.next/cache/webpack/client-development/0.pack.gz_' -> '/Users/madhavpathak/Desktop/padmaisha with firebase5566/.next/cache/webpack/client-development/0.pack.gz'
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:364:1]
+ [2m361[0m |             >
+ [2m362[0m |               {loading ? 'Placing Order...' : 'Place Order'}
+ [2m363[0m |             </Button>
+ [2m364[0m |           </div>
+     : [35;1m           ^^^^^[0m
+ [2m365[0m |         </div>
+ [2m366[0m |       </div>
+ [2m367[0m |     </div>
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:364:1]
+ [2m361[0m |             >
+ [2m362[0m |               {loading ? 'Placing Order...' : 'Place Order'}
+ [2m363[0m |             </Button>
+ [2m364[0m |           </div>
+     : [35;1m           ^^^^^[0m
+ [2m365[0m |         </div>
+ [2m366[0m |       </div>
+ [2m367[0m |     </div>
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:364:1]
+ [2m361[0m |             >
+ [2m362[0m |               {loading ? 'Placing Order...' : 'Place Order'}
+ [2m363[0m |             </Button>
+ [2m364[0m |           </div>
+     : [35;1m           ^^^^^[0m
+ [2m365[0m |         </div>
+ [2m366[0m |       </div>
+ [2m367[0m |     </div>
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:364:1]
+ [2m361[0m |             >
+ [2m362[0m |               {loading ? 'Placing Order...' : 'Place Order'}
+ [2m363[0m |             </Button>
+ [2m364[0m |           </div>
+     : [35;1m           ^^^^^[0m
+ [2m365[0m |         </div>
+ [2m366[0m |       </div>
+ [2m367[0m |     </div>
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ GET /checkout 500 in 382ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unexpected token `{`. Expected identifier, string literal, numeric literal or [ for the computed key
+    ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:52:1]
+ [2m49[0m |                 return;
+ [2m50[0m |               }
+ [2m51[0m | 
+ [2m52[0m |             transition={{ duration: 0.8 }}
+    : [35;1m                        ^[0m
+ [2m53[0m |             className="text-2xl font-bold text-gray-900 mb-2"
+ [2m54[0m |           >
+ [2m55[0m |             Redirecting to your cart...
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ GET /checkout 500 in 33ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+    ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:8:1]
+ [2m 5[0m | import { ArrowLeft, Check } from 'lucide-react';
+ [2m 6[0m | import { useApp } from '@/contexts/AppContext';
+ [2m 7[0m | import { Button } from '@/components/ui/button';
+ [2m 8[0m |                   />
+    : [35;1m                  ^^[0m
+ [2m 9[0m |                 </div>
+ [2m10[0m |                 <div>
+ [2m11[0m |                   <Textarea
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ GET /checkout 500 in 47ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /checkout in 4.5s (1493 modules)
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:296:1]
+ [2m293[0m | import { ArrowLeft, Check } from 'lucide-react';
+ [2m294[0m | import { useApp } from '@/contexts/AppContext';
+ [2m295[0m | import { Button } from '@/components/ui/button';
+ [2m296[0m |                   />
+     : [35;1m                  ^^[0m
+ [2m297[0m |                 </div>
+ [2m298[0m |                 <div>
+ [2m299[0m |                   <Textarea
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:296:1]
+ [2m293[0m | import { ArrowLeft, Check } from 'lucide-react';
+ [2m294[0m | import { useApp } from '@/contexts/AppContext';
+ [2m295[0m | import { Button } from '@/components/ui/button';
+ [2m296[0m |                   />
+     : [35;1m                  ^^[0m
+ [2m297[0m |                 </div>
+ [2m298[0m |                 <div>
+ [2m299[0m |                   <Textarea
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ ○ Compiling /_not-found ...
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:296:1]
+ [2m293[0m | import { ArrowLeft, Check } from 'lucide-react';
+ [2m294[0m | import { useApp } from '@/contexts/AppContext';
+ [2m295[0m | import { Button } from '@/components/ui/button';
+ [2m296[0m |                   />
+     : [35;1m                  ^^[0m
+ [2m297[0m |                 </div>
+ [2m298[0m |                 <div>
+ [2m299[0m |                   <Textarea
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ GET /checkout 500 in 396ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:153:1]
+ [2m150[0m | import { ArrowLeft, Check } from 'lucide-react';
+ [2m151[0m | import { useApp } from '@/contexts/AppContext';
+ [2m152[0m | import { Button } from '@/components/ui/button';
+ [2m153[0m |                   />
+     : [35;1m                  ^^[0m
+ [2m154[0m |                 </div>
+ [2m155[0m |                 <div>
+ [2m156[0m |                   <Textarea
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ GET /checkout 500 in 19ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled /checkout in 3.4s (1493 modules)
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:100:1]
+ [2m 97[0m |             import { db } from '@/lib/firebase';
+ [2m 98[0m |             import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+ [2m 99[0m | 
+ [2m100[0m |             const CheckoutPage: React.FC = () => {
+     : [35;1m                                               ^[0m
+ [2m101[0m |               const router = useRouter();
+ [2m102[0m |               const { state, dispatch } = useApp();
+     `----
+  [31mx[0m Expected '</', got 'const'
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:101:1]
+ [2m 98[0m |             import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+ [2m 99[0m | 
+ [2m100[0m |             const CheckoutPage: React.FC = () => {
+ [2m101[0m |               const router = useRouter();
+     : [35;1m              ^^^^^[0m
+ [2m102[0m |               const { state, dispatch } = useApp();
+ [2m103[0m | 
+ [2m104[0m |               const [loading, setLoading] = useState(false);
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:100:1]
+ [2m 97[0m |             import { db } from '@/lib/firebase';
+ [2m 98[0m |             import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+ [2m 99[0m | 
+ [2m100[0m |             const CheckoutPage: React.FC = () => {
+     : [35;1m                                               ^[0m
+ [2m101[0m |               const router = useRouter();
+ [2m102[0m |               const { state, dispatch } = useApp();
+     `----
+  [31mx[0m Expected '</', got 'const'
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:101:1]
+ [2m 98[0m |             import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+ [2m 99[0m | 
+ [2m100[0m |             const CheckoutPage: React.FC = () => {
+ [2m101[0m |               const router = useRouter();
+     : [35;1m              ^^^^^[0m
+ [2m102[0m |               const { state, dispatch } = useApp();
+ [2m103[0m | 
+ [2m104[0m |               const [loading, setLoading] = useState(false);
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:100:1]
+ [2m 97[0m |             import { db } from '@/lib/firebase';
+ [2m 98[0m |             import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+ [2m 99[0m | 
+ [2m100[0m |             const CheckoutPage: React.FC = () => {
+     : [35;1m                                               ^[0m
+ [2m101[0m |               const router = useRouter();
+ [2m102[0m |               const { state, dispatch } = useApp();
+     `----
+  [31mx[0m Expected '</', got 'const'
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:101:1]
+ [2m 98[0m |             import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+ [2m 99[0m | 
+ [2m100[0m |             const CheckoutPage: React.FC = () => {
+ [2m101[0m |               const router = useRouter();
+     : [35;1m              ^^^^^[0m
+ [2m102[0m |               const { state, dispatch } = useApp();
+ [2m103[0m | 
+ [2m104[0m |               const [loading, setLoading] = useState(false);
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ ○ Compiling /_not-found ...
+ GET /checkout 500 in 353ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:243:1]
+ [2m240[0m |             import { db } from '@/lib/firebase';
+ [2m241[0m |             import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+ [2m242[0m | 
+ [2m243[0m |             const CheckoutPage: React.FC = () => {
+     : [35;1m                                               ^[0m
+ [2m244[0m |               const router = useRouter();
+ [2m245[0m |               const { state, dispatch } = useApp();
+     `----
+  [31mx[0m Expected '</', got 'const'
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:244:1]
+ [2m241[0m |             import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+ [2m242[0m | 
+ [2m243[0m |             const CheckoutPage: React.FC = () => {
+ [2m244[0m |               const router = useRouter();
+     : [35;1m              ^^^^^[0m
+ [2m245[0m |               const { state, dispatch } = useApp();
+ [2m246[0m | 
+ [2m247[0m |               const [loading, setLoading] = useState(false);
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ GET /checkout 500 in 28ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:258:1]
+ [2m255[0m |             import { db } from '@/lib/firebase';
+ [2m256[0m |             import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+ [2m257[0m | 
+ [2m258[0m |             const CheckoutPage: React.FC = () => {
+     : [35;1m                                               ^[0m
+ [2m259[0m |               const router = useRouter();
+ [2m260[0m |               const { state, dispatch } = useApp();
+     `----
+  [31mx[0m Expected '</', got 'const'
+     ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:259:1]
+ [2m256[0m |             import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+ [2m257[0m | 
+ [2m258[0m |             const CheckoutPage: React.FC = () => {
+ [2m259[0m |               const router = useRouter();
+     : [35;1m              ^^^^^[0m
+ [2m260[0m |               const { state, dispatch } = useApp();
+ [2m261[0m | 
+ [2m262[0m |               const [loading, setLoading] = useState(false);
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ GET /checkout 500 in 29ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/checkout/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+    ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:22:1]
+ [2m19[0m |             <div className="mt-4">
+ [2m20[0m |               <Button onClick={handlePlaceOrder} disabled={loading} className="w-full">{loading ? 'Placing...' : 'Place Order'}</Button>
+ [2m21[0m |             </div>
+ [2m22[0m |           </div>
+    : [35;1m           ^^^^^[0m
+ [2m23[0m |         </div>
+ [2m24[0m |       </div>
+ [2m25[0m |     </div>
+    `----
+  [31mx[0m Expression expected
+    ,-[[36;1;4m/Users/madhavpathak/Desktop/padmaisha with firebase5566/app/checkout/page.tsx[0m:22:1]
+ [2m19[0m |             <div className="mt-4">
+ [2m20[0m |               <Button onClick={handlePlaceOrder} disabled={loading} className="w-full">{loading ? 'Placing...' : 'Place Order'}</Button>
+ [2m21[0m |             </div>
+ [2m22[0m |           </div>
+    : [35;1m            ^^^^[0m
+ [2m23[0m |         </div>
+ [2m24[0m |       </div>
+ [2m25[0m |     </div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/checkout/page.tsx
+ GET /checkout 500 in 29ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled /_not-found in 5s (1490 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /checkout 200 in 1487ms
+ ✓ Compiled in 5.8s (1504 modules)
+ GET /checkout 200 in 277ms
