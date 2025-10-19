@@ -1,13 +1,16 @@
 [build]
+  # Install dependencies and build the project
   command = "npm ci --legacy-peer-deps && npm run build"
   publish = ".next"
   ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF ./package-lock.json"
 
 [[plugins]]
+  # Official Next.js plugin for Netlify
   package = "@netlify/plugin-nextjs"
 
 [build.environment]
-  NODE_VERSION = "18.17.1"
+  NODE_VERSION = "20.9.0"
+  NPM_VERSION = "10.1.0"
   NPM_FLAGS = "--legacy-peer-deps --no-audit --prefer-offline"
   NEXT_TELEMETRY_DISABLED = "1"
   CI = "true"
