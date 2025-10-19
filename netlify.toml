@@ -1,6 +1,5 @@
-
 [build]
-  command = "npm ci && npm run build:clean"
+  command = "npm ci --legacy-peer-deps && npm run build"
   publish = ".next"
   ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF ./package-lock.json"
 
@@ -9,13 +8,9 @@
 
 [build.environment]
   NODE_VERSION = "18.17.1"
-  NPM_VERSION = "9.6.7"
   NPM_FLAGS = "--legacy-peer-deps --no-audit --prefer-offline"
   NEXT_TELEMETRY_DISABLED = "1"
   CI = "true"
-
-[build.processing]
-  skip_processing = true
 
 [functions]
   included_files = ["node_modules/**"]
